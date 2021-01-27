@@ -2,7 +2,7 @@ var obj = document.getElementById("player");
 
 var x = 0;
 var y = 0;
-var size = 50;
+var size = window.innerWidth * 0.07;
 
 function moveObj(event) {
     switch(event.keyCode) {
